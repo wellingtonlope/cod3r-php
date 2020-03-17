@@ -15,6 +15,26 @@ body {
 .cabecalho {
     grid-area: cabecalho;
     background-color: #1867c0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    z-index: 1;
+    box-shadow: 0 4px 9px -2px rgba(0, 0, 0, 0.75);
+}
+
+.cabecalho > h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+.cabecalho > h2 {
+    margin: 0;
+    font-weight: 200;
+    font-size: 1.6rem;
 }
 
 .principal {
@@ -24,9 +44,130 @@ body {
     padding: 20px;
 }
 
+.conteudo {
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+}
+
 .rodape {
     grid-area: rodape;
     background-color: #fff;
     /*position: sticky;*/
     /*bottom: 0px;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 20px;
+    color: #444;
+}
+
+.modulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.modulo {
+    flex-basis: 32%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.modulo > h3 {
+    margin: 0;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #1867c0;
+}
+
+.modulo > ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+.modulo > ul > li {
+    padding: 7px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.modulo > ul > li > a {
+    display: flex;
+    text-decoration: none;
+    color: #222;
+}
+
+.modulo > ul > li:hover {
+    background-color: #eee;
+}
+
+.modulo.verde {
+    border: 2px solid #4CAF50;
+}
+.modulo.verde > h3 {
+    background-color: #4CAF50;
+}
+
+.modulo.vermelho {
+    border: 2px solid #F44336;
+}
+.modulo.vermelho > h3 {
+    background-color: #F44336;
+}
+
+.modulo.cor {
+    border: 2px solid # ?;
+}
+.modulo.cor > h3 {
+    background-color: # ?;
+}
+
+.modulo.cor {
+    border: 2px solid # ?;
+}
+.modulo.cor > h3 {
+    background-color: # ?;
+}
+
+.modulo.cor {
+    border: 2px solid # ?;
+}
+.modulo.cor > h3 {
+    background-color: # ?;
+}
+
+.modulo.cor {
+    border: 2px solid # ?;
+}
+.modulo.cor > h3 {
+    background-color: # ?;
+}
+
+.modulo.cor {
+    border: 2px solid # ?;
+}
+.modulo.cor > h3 {
+    background-color: # ?;
+}
+
+.modulo.cor {
+    border: 2px solid # ?;
+}
+.modulo.cor > h3 {
+    background-color: # ?;
+}
+
+.modulo.cor {
+    border: 2px solid # ?;
+}
+.modulo.cor > h3 {
+    background-color: # ?;
 }
