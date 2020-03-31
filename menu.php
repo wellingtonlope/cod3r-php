@@ -445,7 +445,7 @@
         </ul>
     </div>
     <div class="modulo laranja-escuro">
-        <h3>9. Namespace</h3>
+        <h3>10. Namespace</h3>
         <ul>
             <li>
                 <a href="exercicio.php?dir=namespace&file=basico">
@@ -460,6 +460,31 @@
             <li>
                 <a href="exercicio.php?dir=namespace&file=use_as">
                     Use/As
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="modulo verde">
+        <h3>11. Tratamento de erros</h3>
+        <ul>
+            <li>
+                <a href="exercicio.php?dir=tratamento_error&file=try_catch">
+                    Try/Catch
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=tratamento_error&file=erros_personalizados">
+                    Erros Personalizados
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=tratamento_error&file=desafio_intdiv_teste">
+                    Desafio intdiv
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=tratamento_error&file=gerenciador_erro">
+                    Error Handler
                 </a>
             </li>
         </ul>
